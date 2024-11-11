@@ -1,0 +1,78 @@
+/* :root {
+  --main-bg-color--: #ff685d;
+  --main-font-color--: #ff685d;
+  --dark-font-color--: #262626;
+  --light-font-color--: #fff;
+  --light-bg-color--: #fff;
+  --dark-bg-color--: #262626;
+  --fs-nature-bg-color--: #f7f5fbb5;
+  --fs-nature-font-color--: #929292fb;
+} */
+/*fonts colors*/
+.fs_LightFont {
+  color: #fff;
+}
+.fs_DarkFont {
+  color: #262626;
+}
+
+/*background colors*/
+.fs_LightBg {
+  background-color:#fff;
+}
+.fs_DarkBg {
+  background-color:#262626;
+}
+
+/*commen bg colors*/
+.fsNatureBg {
+  background-color:#f7f5fbc7;
+}
+.fsNatureFont {
+  color: #929292fb;
+}
+
+/*Theme font & bg colors*/
+.fsThmeFontColor {
+  color:#1d5e53!important;
+}
+.fsThmebgColor {
+  background-color:#1d5e53!important;
+}
+
+/*bg gradients colors*/
+.bottomGradient {
+  background-image: linear-gradient(
+    to right,
+    rgb(90 96 82) 0%,
+    rgb(201 164 106 / 0%) 100%,
+    rgb(177 95 239 / 0%) 0%
+  );
+}
+.bottomGradient02 {
+  background-image: linear-gradient(
+    to left,
+    rgb(255 255 255 / 0%) 0%,
+    rgb(201 164 106 / 0%) 77%,
+    rgb(177 95 239 / 83%) 0%
+  );
+}
+.bgLenear {
+  background-image: linear-gradient(163deg, #f7f5fb 50%, #fff 50%);
+}
+.smImgGrd {
+  background-image: linear-gradient(114deg, #f7f5fbb5 50%, #ffffff00 50%);
+}
+.imgBgGr {
+  background-image: linear-gradient(
+    to left top,
+    #05193700,
+    #7b87a700,
+    #39322400,
+    #d3ba61a6,
+    #cb8c3a85
+  );
+}
+.blackOverlay {
+  background-color: rgb(0 0 0 / 69%);
+}
